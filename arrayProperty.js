@@ -3,9 +3,7 @@
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
 
 String.prototype.reverse = function() {
-  var revStr = "";
-  for (var i = this.length - 1; i >= 0; i--) {
-    revStr += this.charAt(i);
-  };
-  return revStr;
+  return this.split("").reverse().join("");
 }
+
+"My string".reverse();

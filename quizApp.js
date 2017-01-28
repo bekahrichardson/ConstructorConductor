@@ -39,7 +39,7 @@
 
 //Create a questions Array which is going to hold all of our questions
 
-  var questions = ["question1", "question2", "question3"];
+  var Questions = ["question1", "question2", "question3"];
 
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
@@ -48,11 +48,11 @@
 //title: "T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value"
 //Fill in the rest of the required data as you see appropriate.
 
-  questions.push(new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?',
+  Questions.push(new Question('T/F: Inheritance is achieved in JavaScript through Prototypes?',
 ['T', 'F'], 'T', 'M'));
-questions.push(new Question('T/F: JavaScript is just a scripting version of Java',
+Questions.push(new Question('T/F: JavaScript is just a scripting version of Java',
 ['T', 'F'], 'F', 'E'));
-questions.push(new Question("T/F: In JavaScript, == doesn't check 'type' but just the value - where === checks type and value",
+Questions.push(new Question("T/F: In JavaScript, == doesn't check 'type' but just the value - where === checks type and value",
 ['T', 'F'], 'T', 'H'));
 
 
